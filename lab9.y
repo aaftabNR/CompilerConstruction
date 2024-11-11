@@ -11,8 +11,7 @@ int yylex(void);
 
 %%
 
-S: for_loop
-       ;
+
 
 for_loop: FOR '(' initialization ';' condition ';' increment ')' '{' body '}'
         {
